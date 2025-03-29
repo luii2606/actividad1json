@@ -1,28 +1,129 @@
 {
-  "posts": [
+  "artists": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "nombre": "Leonardo da Vinci",
+      "movimiento_id": 1,
+      "pais": "Italia",
+      "nacimiento": 1452
     },
     {
-      "name": "Add your name in the body",
-      "id": 2
+      "id": 2,
+      "nombre": "Vincent van Gogh",
+      "movimiento_id": 2,
+      "pais": "Países Bajos",
+      "nacimiento": 1853
     },
     {
-      "title": "hola",
-      "author": "Luisa",
-      "id": 3
+      "id": 3,
+      "nombre": "Pablo Picasso",
+      "movimiento_id": 3,
+      "pais": "España",
+      "nacimiento": 1881
+    },
+    {
+      "id": 4,
+      "nombre": "Frida Kahlo",
+      "movimiento_id": 4,
+      "pais": "México",
+      "nacimiento": 1907
+    },
+    {
+      "id": 5,
+      "nombre": "Claude Monet",
+      "movimiento_id": 2,
+      "pais": "Francia",
+      "nacimiento": 1840
     }
   ],
-  "comments": [
+  "movements": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nombre": "Renacimiento",
+      "descripcion": "Movimiento artístico del siglo XV y XVI que enfatiza el realismo y la perspectiva.",
+      "periodo": "Siglo XV - XVI"
+    },
+    {
+      "id": 2,
+      "nombre": "Impresionismo",
+      "descripcion": "Movimiento del siglo XIX que busca capturar la luz y el momento en pinturas.",
+      "periodo": "Siglo XIX"
+    },
+    {
+      "id": 3,
+      "nombre": "Cubismo",
+      "descripcion": "Movimiento del siglo XX que fragmenta la realidad en formas geométricas.",
+      "periodo": "Siglo XX"
+    },
+    {
+      "id": 4,
+      "nombre": "Surrealismo",
+      "descripcion": "Movimiento artístico que explora el subconsciente y la imaginación sin límites.",
+      "periodo": "Siglo XX"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "artworks": [
+    {
+      "id": 1,
+      "titulo": "La Mona Lisa",
+      "artista_id": 1,
+      "anio": 1503,
+      "museo_id": 1
+    },
+    {
+      "id": 2,
+      "titulo": "La Noche Estrellada",
+      "artista_id": 2,
+      "anio": 1889,
+      "museo_id": 2
+    },
+    {
+      "id": 3,
+      "titulo": "Guernica",
+      "artista_id": 3,
+      "anio": 1937,
+      "museo_id": 3
+    },
+    {
+      "id": 4,
+      "titulo": "Las dos Fridas",
+      "artista_id": 4,
+      "anio": 1939,
+      "museo_id": 4
+    },
+    {
+      "id": 5,
+      "titulo": "Impresión, sol naciente",
+      "artista_id": 5,
+      "anio": 1872,
+      "museo_id": 5
+    }
+  ],
+  "museums": [
+    {
+      "id": 1,
+      "nombre": "Museo del Louvre",
+      "pais": "Francia"
+    },
+    {
+      "id": 2,
+      "nombre": "Museo de Arte Moderno (MoMA)",
+      "pais": "EE.UU."
+    },
+    {
+      "id": 3,
+      "nombre": "Museo Reina Sofía",
+      "pais": "España"
+    },
+    {
+      "id": 4,
+      "nombre": "Museo de Arte Moderno de México",
+      "pais": "México"
+    },
+    {
+      "id": 5,
+      "nombre": "Museo de Orsay",
+      "pais": "Francia"
+    }
+  ]
 }
